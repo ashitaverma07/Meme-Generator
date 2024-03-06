@@ -1,5 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.meme-generator{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.meme-generator img{
+    height: 430px;
+    object-fit: cover;
+}
+
+.meme-generator .generate-meme-btn{
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #f64646;
+    background: #fff;
+    cursor: pointer;
+    
 }
