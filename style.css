@@ -18,5 +18,10 @@
     color: #f64646;
     background: #fff;
     cursor: pointer;
-    
+}
+
+.meme-generator .generate-meme-btn:hover{
+    padding: 8px 36px;
+    border-right: 8px solid #222;
+    border-left: 8px solid #222;
 }
