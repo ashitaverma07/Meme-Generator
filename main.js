@@ -18,3 +18,4 @@ const generateMeme = () => {
     });
 };
 generateMemeBtn.addEventListener("click", generateMeme);
+generateMeme();

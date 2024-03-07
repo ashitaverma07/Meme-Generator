@@ -30,5 +30,6 @@
 
 .meme-generator .meme-author{
     margin: 8px;
-    
+    color: #751e1e;
+    font-weight: 100;
 }
