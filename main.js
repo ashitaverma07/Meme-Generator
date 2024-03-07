@@ -4,8 +4,8 @@ const memeImage = document.querySelector(".meme-generator img");
 const memeTitle = document.querySelector(".meme-generator .meme-title");
 const memeAuthor = document.querySelector(".meme-generator .meme-author");
 
-const updateDetails = () =>{
-    memeImage.setAttribute("src", data.url);
+const updateDetails = (url, title, author) =>{
+    memeImage.setAttribute("src", url);
 }
 
 const generateMeme = () => {
